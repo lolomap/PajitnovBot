@@ -26,7 +26,7 @@ def main():
                         if event.obj['attachments'][0]['type'] == 'link':
                             url = event.obj['attachments'][0]['link']['url']
 
-                    if msg_text == '1':
+                    if msg_text == sys.argv[3]:
                         log.log_var(action='STOP PROGRAM', sender='User')
                         log.status = 'OK'
                         logger.log_info(log)
