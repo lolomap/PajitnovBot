@@ -9058,3 +9058,14 @@ Variables:
           "'group_id': 192264919, 'event_id': "
           "'c0836a95bcd8c8ce744e48cd22bbe64309a318e8'})>",
  'res': 'UNKNOWN'}
+
+UUID: 39dff742-6141-11ea-aa6a-d850e607d4cd
+TIME  16:32:15.938978
+Action: create_session
+Object: <VK_API.VK_API object at 0x03627490>
+Status: OK
+Variables:
+{'api': <vk_api.vk_api.VkApi object at 0x038E44F0>,
+ 'group_id': '192264919',
+ 'longpoll': <vk_api.bot_longpoll.VkBotLongPoll object at 0x03E10810>,
+ 'vk_session': <vk_api.vk_api.VkApiMethod object at 0x03E15E30>}

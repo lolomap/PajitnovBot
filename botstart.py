@@ -23,7 +23,7 @@ def main():
                 try:
                     msg_text = event.obj.text
                     log.log_var(msg_text=msg_text)
-                    if len(event.obj['attachments']) > 0:
+                    if 'attachments' in event.obj.keys():
                         if event.obj['attachments'][0]['type'] == 'link':
                             url = event.obj['attachments'][0]['link']['url']
 
