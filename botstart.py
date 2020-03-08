@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import VK_API
 # import network
 from logger import Logger, Log

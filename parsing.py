@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import newspaper
 from logger import Log, Logger
 
