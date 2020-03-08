@@ -71,7 +71,7 @@ def main():
                 except Exception as e:
                     log.status = 'Exception'
                     log.log_var(exception_info=e)
-                    api.write_msg(event, 'Произошла ошибка на сервере.')
+                    # api.write_msg(event, 'Произошла ошибка на сервере.')
 
                 logger.log_info(log)
 
